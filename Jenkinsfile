@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        git 'mac_git'
-    }
-
     stages {
 
         stage('Checkout') {
